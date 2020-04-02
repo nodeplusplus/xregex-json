@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:e2e": "jest __tests__/e2e",
-    "test:coverage": "JEST_JUNIT_OUTPUT_DIR=reports jest --coverage __tests__",
+    "test:coverage": "jest --coverage __tests__",
     "test:coverage:ci": "jest --reporters=default --reporters=jest-junit --coverage -ci __tests__",
     "build": "rm -rf lib && tsc -p tsconfig.build.json && cp -r src/types lib",
     "prepack": "rm -rf *.tgz && npm run build",
