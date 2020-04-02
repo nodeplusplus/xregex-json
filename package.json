@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
+    "test:interactions": "jest __tests__/interactions",
     "test:e2e": "jest __tests__/e2e",
     "test:coverage": "jest --coverage __tests__",
     "test:coverage:ci": "jest --reporters=default --reporters=jest-junit --coverage -ci __tests__",
