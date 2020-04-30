@@ -1,6 +1,6 @@
 {
   "name": "@nodeplusplus/xregex-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Another way to work with json string and object",
   "main": "lib/index.js",
   "scripts": {
